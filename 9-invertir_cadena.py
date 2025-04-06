@@ -5,10 +5,10 @@ Escribir una función en Python que reciba una cadena de texto y devuelva la mis
 text = input("Digite cualquier texto: ")
 
 def invertir_cadena(string):
-    string_invertido = ""
+    invertida = ""
 
     for i in reversed(string):
-        string_invertido += i
-    return string_invertido
+        invertida += i
+    return invertida
 
 print(invertir_cadena(text))
